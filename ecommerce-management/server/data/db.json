@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "name": "Admin User",
+      "email": "admin@shop.com",
+      "password": "$2a$10$SX2PT8lA5gWud7pS4kB5zeyOyBTl6x.jr3.96Tl1AraqJgREofdlS",
+      "role": "admin",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    { "id": "cat-1", "name": "Electronics" },
+    { "id": "cat-2", "name": "Clothing" },
+    { "id": "cat-3", "name": "Home & Kitchen" },
+    { "id": "cat-4", "name": "Books" }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Wireless Bluetooth Headphones",
+      "description": "Over-ear headphones with noise cancellation and 30-hour battery life.",
+      "price": 59.99,
+      "stock": 45,
+      "categoryId": "cat-1",
+      "image": "https://picsum.photos/seed/headphones/400/300",
+      "sku": "ELEC-1001",
+      "createdAt": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Smart Fitness Watch",
+      "description": "Tracks heart rate, sleep, and steps with a 7-day battery.",
+      "price": 89.5,
+      "stock": 30,
+      "categoryId": "cat-1",
+      "image": "https://picsum.photos/seed/watch/400/300",
+      "sku": "ELEC-1002",
+      "createdAt": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Men's Casual Jacket",
+      "description": "Water-resistant jacket, perfect for spring and autumn.",
+      "price": 45.0,
+      "stock": 60,
+      "categoryId": "cat-2",
+      "image": "https://picsum.photos/seed/jacket/400/300",
+      "sku": "CLTH-2001",
+      "createdAt": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Ceramic Non-Stick Cookware Set",
+      "description": "8-piece cookware set, dishwasher safe.",
+      "price": 120.0,
+      "stock": 15,
+      "categoryId": "cat-3",
+      "image": "https://picsum.photos/seed/cookware/400/300",
+      "sku": "HOME-3001",
+      "createdAt": "2026-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "The Pragmatic Programmer",
+      "description": "A classic guide for software developers.",
+      "price": 32.99,
+      "stock": 80,
+      "categoryId": "cat-4",
+      "image": "https://picsum.photos/seed/book/400/300",
+      "sku": "BOOK-4001",
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    }
+  ],
+  "orders": [],
+  "customers": []
+}
