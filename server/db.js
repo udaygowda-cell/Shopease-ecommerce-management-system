@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
+BN
 const DB_PATH = path.join(__dirname, 'data', 'db.json');
 
 function readDB() {
