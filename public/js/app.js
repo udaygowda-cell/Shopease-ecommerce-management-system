@@ -14,7 +14,7 @@ function toast(msg) {
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 2200);
 }
-
+ 
 function headers(json = true) {
   const h = {};
   if (json) h['Content-Type'] = 'application/json';
