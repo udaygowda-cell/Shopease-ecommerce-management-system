@@ -7,6 +7,10 @@ let adminState = {
   orders: []
 };
 
+function formatPrice(value) {
+  return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR' }).format(Number(value));
+}
+
 function toast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg;
@@ -73,7 +77,7 @@ async function loadDashboard() {
   const s = await res.json();
 
   document.getElementById('stats-grid').innerHTML = `
-    <div class="stat-card"><div class="label">Total Revenue</div><div class="value">$${s.totalRevenue.toFixed(2)}</div></div>
+    <div class="stat-card"><div class="label">Total Revenue</div><div class="value">${formatPrice(s.totalRevenue)}</div></div>
     <div class="stat-card"><div class="label">Total Orders</div><div class="value">${s.totalOrders}</div></div>
     <div class="stat-card"><div class="label">Total Products</div><div class="value">${s.totalProducts}</div></div>
     <div class="stat-card"><div class="label">Customers</div><div class="value">${s.totalCustomers}</div></div>
@@ -84,7 +88,7 @@ async function loadDashboard() {
     <tr>
       <td>#${o.id.slice(0, 8)}</td>
       <td>${o.customerName}</td>
-      <td>$${o.total.toFixed(2)}</td>
+      <td>${formatPrice(o.total)}</td>
       <td><span class="badge ${o.status}">${o.status}</span></td>
       <td>${new Date(o.createdAt).toLocaleDateString()}</td>
     </tr>
@@ -102,7 +106,7 @@ async function loadProducts() {
       <td><img src="${p.image}" style="width:50px;height:40px;object-fit:cover;border-radius:6px"></td>
       <td>${p.name}</td>
       <td>${p.sku}</td>
-      <td>$${p.price.toFixed(2)}</td>
+      <td>${formatPrice(p.price)}</td>
       <td>${p.stock}</td>
       <td>${categoryName(p.categoryId)}</td>
       <td>
@@ -183,7 +187,7 @@ async function loadOrders() {
       <td>#${o.id.slice(0, 8)}</td>
       <td>${o.customerName}</td>
       <td>${o.items.map(i => `${i.name} x${i.quantity}`).join(', ')}</td>
-      <td>$${o.total.toFixed(2)}</td>
+      <td>${formatPrice(o.total)}</td>
       <td><span class="badge ${o.status}">${o.status}</span></td>
       <td>${new Date(o.createdAt).toLocaleDateString()}</td>
       <td>

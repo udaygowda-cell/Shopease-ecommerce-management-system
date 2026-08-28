@@ -43,7 +43,7 @@
       "price": 59.99,
       "stock": 45,
       "categoryId": "cat-1",
-      "image": "https://picsum.photos/seed/headphones/400/300",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCThTTugwEiJSw-1yv9HnathwcJGQqm9tMafWKd-13YNs_g0c46epWj6v-HUbuEcGe5KvGmS9HbE6iu-6XK3eteuSUS1RrlNVwJGxuEt3dTZSffeGCXE_UEwk",
       "sku": "ELEC-1001",
       "createdAt": "2026-01-02T00:00:00.000Z"
     },
@@ -51,10 +51,10 @@
       "id": "prod-2",
       "name": "Smart Fitness Watch",
       "description": "Tracks heart rate, sleep, and steps with a 7-day battery.",
-      "price": 89.5,
+      "price": 130000,
       "stock": 30,
       "categoryId": "cat-1",
-      "image": "https://picsum.photos/seed/watch/400/300",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSuQXE1kd-eKa-OUwkNoau2QtFhk3t0kKm8t1frBuAco74Q0k4R1wG8PWXtdLAJPlP4OCIHo26Q-T_bVzl_UAVEpDRybrUk7zh4GRG-PepHQedS-T_EcK3sMQ",
       "sku": "ELEC-1002",
       "createdAt": "2026-01-02T00:00:00.000Z"
     },

@@ -8,6 +8,10 @@ let state = {
   authMode: 'login'
 };
 
+function formatPrice(value) {
+  return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR' }).format(Number(value));
+}
+
 function toast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg;
@@ -59,7 +63,7 @@ function renderProducts() {
       <div class="body">
         <h3>${p.name}</h3>
         <div class="desc">${p.description}</div>
-        <div class="price">$${p.price.toFixed(2)}</div>
+        <div class="price">${formatPrice(p.price)}</div>
         <div class="stock">${p.stock > 0 ? p.stock + ' in stock' : 'Out of stock'}</div>
         <button class="btn" ${p.stock === 0 ? 'disabled' : ''} onclick="addToCart('${p.id}')">Add to Cart</button>
       </div>
@@ -94,7 +98,7 @@ function renderCart() {
   const container = document.getElementById('cart-items');
   if (state.cart.length === 0) {
     container.innerHTML = `<div class="empty-state">Your cart is empty.</div>`;
-    document.getElementById('cart-total').textContent = '$0.00';
+    document.getElementById('cart-total').textContent = formatPrice(0);
     return;
   }
   let total = 0;
@@ -109,10 +113,10 @@ function renderCart() {
           <span style="margin:0 8px">${item.quantity}</span>
           <button onclick="changeQty('${item.productId}', 1)">+</button>
         </div>
-        <span>$${(product.price * item.quantity).toFixed(2)}</span>
+          <span>${formatPrice(product.price * item.quantity)}</span>
       </div>`;
   }).join('');
-  document.getElementById('cart-total').textContent = `$${total.toFixed(2)}`;
+        document.getElementById('cart-total').textContent = formatPrice(total);
 }
 
 function changeQty(productId, delta) {
@@ -170,7 +174,7 @@ async function loadOrders() {
           <span class="badge ${o.status}">${o.status}</span>
         </div>
         <div class="desc">${o.items.map(i => `${i.name} x${i.quantity}`).join(', ')}</div>
-        <div class="price">$${o.total.toFixed(2)}</div>
+        <div class="price">${formatPrice(o.total)}</div>
         <div class="stock">${new Date(o.createdAt).toLocaleString()}</div>
       </div>
     </div>
