@@ -52,6 +52,29 @@ a { text-decoration: none; color: inherit; }
   color: var(--text);
 }
 
+.home {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: var(--radius);
+  border: 2px solid var(--primary);
+  background: var(--primary);
+  color: rgb(12, 1, 1) !important;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.home:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(47, 111, 237, 0.25);
+}
+
+.home:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
 .btn {
   display: inline-block;
   padding: 9px 18px;

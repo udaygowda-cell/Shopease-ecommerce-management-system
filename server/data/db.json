@@ -7,13 +7,33 @@
       "password": "$2a$10$SX2PT8lA5gWud7pS4kB5zeyOyBTl6x.jr3.96Tl1AraqJgREofdlS",
       "role": "admin",
       "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "86560d95-89f6-4e65-b533-413d1f0bdca4",
+      "name": "jsjs",
+      "email": "udaykjgowda@gmail.com",
+      "password": "$2a$10$36XgRis4Va30HwWGozspV./hbKOwemOxBPWsNqMt6amM7B4FgJ82S",
+      "role": "customer",
+      "createdAt": "2026-08-28T07:29:44.109Z"
     }
   ],
   "categories": [
-    { "id": "cat-1", "name": "Electronics" },
-    { "id": "cat-2", "name": "Clothing" },
-    { "id": "cat-3", "name": "Home & Kitchen" },
-    { "id": "cat-4", "name": "Books" }
+    {
+      "id": "cat-1",
+      "name": "Electronics"
+    },
+    {
+      "id": "cat-2",
+      "name": "Clothing"
+    },
+    {
+      "id": "cat-3",
+      "name": "Home & Kitchen"
+    },
+    {
+      "id": "cat-4",
+      "name": "Books"
+    }
   ],
   "products": [
     {
@@ -42,7 +62,7 @@
       "id": "prod-3",
       "name": "Men's Casual Jacket",
       "description": "Water-resistant jacket, perfect for spring and autumn.",
-      "price": 45.0,
+      "price": 45,
       "stock": 60,
       "categoryId": "cat-2",
       "image": "https://picsum.photos/seed/jacket/400/300",
@@ -53,7 +73,7 @@
       "id": "prod-4",
       "name": "Ceramic Non-Stick Cookware Set",
       "description": "8-piece cookware set, dishwasher safe.",
-      "price": 120.0,
+      "price": 120,
       "stock": 15,
       "categoryId": "cat-3",
       "image": "https://picsum.photos/seed/cookware/400/300",
