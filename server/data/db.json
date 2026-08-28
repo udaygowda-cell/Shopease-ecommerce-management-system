@@ -40,7 +40,7 @@
       "id": "prod-1",
       "name": "Wireless Bluetooth Headphones",
       "description": "Over-ear headphones with noise cancellation and 30-hour battery life.",
-      "price": 59.99,
+      "price": 1559.99,
       "stock": 45,
       "categoryId": "cat-1",
       "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCThTTugwEiJSw-1yv9HnathwcJGQqm9tMafWKd-13YNs_g0c46epWj6v-HUbuEcGe5KvGmS9HbE6iu-6XK3eteuSUS1RrlNVwJGxuEt3dTZSffeGCXE_UEwk",
@@ -62,10 +62,10 @@
       "id": "prod-3",
       "name": "Men's Casual Jacket",
       "description": "Water-resistant jacket, perfect for spring and autumn.",
-      "price": 45,
-      "stock": 60,
+      "price": 7000,
+      "stock": 59,
       "categoryId": "cat-2",
-      "image": "https://picsum.photos/seed/jacket/400/300",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYytW2SWTy5yboUVq09ZbP5Qv9sJNy1j9zT4xBGq9U9wG0PTDvngVcIbY3VNXuz8WxhQEaNoPsqPbOY_VG1_PZxCh40jb-bg",
       "sku": "CLTH-2001",
       "createdAt": "2026-01-03T00:00:00.000Z"
     },
@@ -73,10 +73,10 @@
       "id": "prod-4",
       "name": "Ceramic Non-Stick Cookware Set",
       "description": "8-piece cookware set, dishwasher safe.",
-      "price": 120,
+      "price": 1200,
       "stock": 15,
       "categoryId": "cat-3",
-      "image": "https://picsum.photos/seed/cookware/400/300",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS6k-iYA-7J43shWLyCfV6w3ukZotlr1s7LdpB3oIhPFbY9dDTM4nXR3ieiosroZfa7wW2J45pxdNihVJ9bAt6MWK1J168Fz4OejW8ZA9zwbz6_457-lbj8xQ",
       "sku": "HOME-3001",
       "createdAt": "2026-01-04T00:00:00.000Z"
     },
@@ -84,14 +84,49 @@
       "id": "prod-5",
       "name": "The Pragmatic Programmer",
       "description": "A classic guide for software developers.",
-      "price": 32.99,
+      "price": 3332.99,
       "stock": 80,
       "categoryId": "cat-4",
-      "image": "https://picsum.photos/seed/book/400/300",
+      "image": "https://m.media-amazon.com/images/I/71VStSjZmpL._AC_UF1000,1000_QL80_.jpg",
       "sku": "BOOK-4001",
       "createdAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "4178e7b2-d2da-49bb-9bf4-0449bd89bbc5",
+      "name": "Xiaomi Smart Band 10 Pro – Black",
+      "description": "",
+      "price": 6000,
+      "stock": 18,
+      "categoryId": "cat-1",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS378UkMA8I8OfK0zaBm1jF-CrSi5sdtSjmAA6TUC6Z49dYfTjBEntREtgB59z-Y80OPPHoGsOSp2Vr0VB-jzOvkHgqeXRjQg",
+      "sku": "SKU-1787904372747",
+      "createdAt": "2026-08-28T08:06:12.747Z"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "id": "a05a8770-1b60-4be2-a74b-36842ab18c83",
+      "userId": "86560d95-89f6-4e65-b533-413d1f0bdca4",
+      "customerName": "jsjs",
+      "items": [
+        {
+          "productId": "prod-3",
+          "name": "Men's Casual Jacket",
+          "price": 7000,
+          "quantity": 1
+        },
+        {
+          "productId": "4178e7b2-d2da-49bb-9bf4-0449bd89bbc5",
+          "name": "Xiaomi Smart Band 10 Pro – Black",
+          "price": 6000,
+          "quantity": 2
+        }
+      ],
+      "total": 19000,
+      "status": "shipped",
+      "shippingAddress": "",
+      "createdAt": "2026-08-28T08:08:23.325Z"
+    }
+  ],
   "customers": []
 }
