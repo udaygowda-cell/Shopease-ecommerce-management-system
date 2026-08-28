@@ -6,7 +6,7 @@ step required). Includes a customer-facing storefront and a full admin managemen
 panel.
  
 ## Features
-
+  
 **Storefront (public)**
 - Browse products with search, category filter, and sort (price/newest)
 - Customer registration & login (JWT auth)
