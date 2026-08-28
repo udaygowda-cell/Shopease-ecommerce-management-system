@@ -4,7 +4,7 @@ A complete e-commerce management project built with **Node.js + Express** on the
 backend and plain **HTML/CSS/JavaScript** on the frontend (no frameworks or build
 step required). Includes a customer-facing storefront and a full admin management
 panel.
- em
+
 ## Features
   
 **Storefront (public)**
