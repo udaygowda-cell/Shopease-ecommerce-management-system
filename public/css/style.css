@@ -61,7 +61,7 @@ a { text-decoration: none; color: inherit; }
   border-radius: var(--radius);
   border: 2px solid var(--primary);
   background: var(--primary);
-  color: rgb(12, 1, 1) !important;
+  color: rgb(0, 0, 0) !important;
   font-size: 14px;
   cursor: pointer;
   transition: all 0.2s ease;
