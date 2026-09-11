@@ -103,7 +103,6 @@ a { text-decoration: none; color: inherit; }
 }
 .hero h1 { font-size: 32px; margin-bottom: 8px; }
 .hero p { opacity: .9; }
-
 .filters {
   display: flex;
   gap: 12px;
