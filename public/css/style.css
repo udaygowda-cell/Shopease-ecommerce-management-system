@@ -83,7 +83,7 @@ a { text-decoration: none; color: inherit; }
   border-radius: var(--radius);
   border: none;
   background: var(--primary);
-  color: white;
+  color: rgb(235, 230, 230);
   font-size: 14px;
   cursor: pointer;
   transition: background .15s;
