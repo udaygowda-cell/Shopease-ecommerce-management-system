@@ -22,7 +22,6 @@ body {
   color: var(--text);
 }
 
-
 a { text-decoration: none; color: inherit; }
 
 .navbar {
@@ -67,12 +66,11 @@ a { text-decoration: none; color: inherit; }
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
 .home:hover {
   background: var(--primary-dark);
   border-color: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(47, 111, 237, 0.25);
+  box-shadow: 0 4px 10px rgba(34, 104, 246, 0.25);
 }
 
 .home:active {
