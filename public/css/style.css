@@ -7,7 +7,7 @@
   --text: #1a1f36;
   --muted: #6b7280;
   --border: #e5e7eb;
-  --success: #16a34a;
+  --success: #5dc282;
   --warning: #d97706;
   --danger: #dc2626;
   --radius: 10px;
@@ -21,6 +21,7 @@ body {
   background: var(--bg);
   color: var(--text);
 }
+
 
 a { text-decoration: none; color: inherit; }
 
