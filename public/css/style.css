@@ -35,8 +35,11 @@ a { text-decoration: none; color: inherit; }
   top: 0;
   z-index: 20;
 }
-
-.navbar .brand {
+ .brand{
+  font-size: 20px;
+  font-weight: 700;
+ }
+.navbar{
   font-size: 20px;
   font-weight: 700;
   color: var(--primary);
@@ -51,7 +54,7 @@ a { text-decoration: none; color: inherit; }
   cursor: pointer;
   color: var(--text);
 }
-
+ 
 .home {
   display: inline-block;
   padding: 9px 18px;
