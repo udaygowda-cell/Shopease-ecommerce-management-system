@@ -173,6 +173,7 @@ a { text-decoration: none; color: inherit; }
   max-height: 90vh;
   overflow-y: auto;
 }
+
 .modal h2 { margin-top: 0; }
 .modal label { display: block; font-size: 13px; margin: 10px 0 4px; color: var(--muted); }
 .modal input, .modal select, .modal textarea {
