@@ -101,6 +101,7 @@ function renderCart() {
     document.getElementById('cart-total').textContent = formatPrice(0);
     return;
   }
+  
   let total = 0;
   container.innerHTML = state.cart.map(item => {
     const product = state.products.find(p => p.id === item.productId) || { name: 'Unknown', price: 0 };
