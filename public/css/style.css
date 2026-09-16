@@ -89,6 +89,7 @@ a { text-decoration: none; color: inherit; }
   cursor: pointer;
   transition: background .15s;
 }
+
 .btn:hover { background: var(--primary-dark); }
 .btn.secondary { background: white; color: var(--primary); border: 1px solid var(--primary); }
 .btn.danger { background: var(--danger); }
