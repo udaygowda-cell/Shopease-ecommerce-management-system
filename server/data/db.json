@@ -15,6 +15,14 @@
       "password": "$2a$10$36XgRis4Va30HwWGozspV./hbKOwemOxBPWsNqMt6amM7B4FgJ82S",
       "role": "customer",
       "createdAt": "2026-08-28T07:29:44.109Z"
+    },
+    {
+      "id": "b2f01689-39aa-464a-9477-90400376dd84",
+      "name": "klqwmdlskx",
+      "email": "udaykjgwda@gmail.com",
+      "password": "$2a$10$j.9MSgXUvUwyy3QzwhRNGuv11oBXtOrHYpBPrEC0NV6y0uxqy71fe",
+      "role": "customer",
+      "createdAt": "2026-09-16T02:28:57.367Z"
     }
   ],
   "categories": [
