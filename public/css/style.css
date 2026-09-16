@@ -91,7 +91,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .btn:hover { background: var(--primary-dark); }
-.btn.secondary { background: rgb(138, 24, 24); color: var(--primary); border: 1px solid var(--primary); }
+.btn.secondary { background: rgb(249, 246, 246); color: var(--primary); border: 1px solid var(--primary); }
 .btn.danger { background: var(--danger); }
 .btn.small { padding: 5px 10px; font-size: 12px; }
 
