@@ -163,6 +163,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .modal-overlay.open { display: flex; }
+
 .modal {
   background: white;
   border-radius: var(--radius);
